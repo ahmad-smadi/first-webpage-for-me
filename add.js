@@ -14,8 +14,9 @@ if( petColor === "white") {
   }
 
 
-
-
+var petAge = prompt("How old is your pet");{
+  alert("please let it happy");
+}
 
 
 
