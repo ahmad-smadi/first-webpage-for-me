@@ -27,9 +27,26 @@ while (userInput !=3){
 }
 
 for(var i=0;i<3;i++)
-{    document.write("<img src='https://www.dogstrust.org.uk/help-advice/_images/164742v800_puppy-1.jpg'>");
+{    document.write("<img src='https://www.logocowboy.com/wp-content/uploads/2020/05/ED1.png'>");
 }
+*/
+
+/*function sumTotal(a1, a2, a3, a4){
+  let total = (a1+a2+a3+a4);
+  console.log("the total is", total);
+}
+
+sumTotal(1000, 800, 666, 93)
 
 */
 
+let name1 = prompt("what your dog name");
+let dogeFamely = prompt("what is the taype of your dog");
 
+
+function dogName(name1, dogeFamely) {
+  console.log("the dog name is", name1, dogeFamely);
+  document.write(`Fullname is <b> ${name1} </b> ${dogeFamely} <br>`);
+}
+
+dogName(name1, dogeFamely);
