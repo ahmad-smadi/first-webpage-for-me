@@ -1,4 +1,4 @@
-/*var userName = "pet";
+var userName = "pet";
 
 var userName = prompt("What is your pet name ?");
 alert("welcome to pet world " + userName );
@@ -18,7 +18,6 @@ var petAge = prompt("How old is your pet");{
   alert("please let it happy");
 }
 
-*/
 
 alert("welcome to the dog world");
 let userInput = prompt("how many dogs you have");
